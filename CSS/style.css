@@ -1,0 +1,302 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  margin: auto;
+  width: 80%;
+  max-width: 1200px;
+}
+/********Home************/
+header {
+  background-color: #333333;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* header div { */
+/* width: 50%; */
+/* padding: 20px 20px; */
+/* } */
+header .lhead h1 {
+  color: #ffffff;
+  margin: 0;
+  font-size: 28px;
+}
+header .rhead {
+  display: flex;
+}
+.rhead a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 25px 20px;
+}
+header .rhead a.active {
+  background-color: #4a4a4a;
+  color: #e69c73;
+}
+#heroIndex {
+  background-image: linear-gradient(#2a2a2abf, #2a2a2abf),
+    url(../image/Hero_index.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+h2 {
+  color: #ffffff;
+  font-size: 55px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+span {
+  color: #e69c73;
+}
+#heroIndex p {
+  text-align: center;
+  color: #dddddd;
+  font-size: 22px;
+  line-height: 1.6;
+}
+#heroIndex button {
+  padding: 15px 35px;
+  display: block;
+  margin: 30px auto 0;
+  border: none;
+  background-color: #333333;
+}
+#heroIndex button a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+}
+#heroIndex .container {
+  padding-top: 35vh;
+}
+#hotel_History {
+  display: flex;
+}
+#hotel_History div {
+  width: calc(100% / 2);
+  height: 350px;
+}
+#hotel_History .lSect1 img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+#hotel_History .rSect1 {
+  padding: 60px 40px;
+  background-color: #333333;
+  display: block;
+  text-align: center;
+  justify-content: center; /*توسيط عمودي*/
+}
+#hotel_History .rSect1 h2 {
+  font-size: 32px;
+}
+#hotel_History .rSect1 p {
+  color: #cccccc;
+  line-height: 1.8;
+  font-size: 17px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+#hotel_History .rSect1 button {
+  background-color: #ffffff;
+  color: #333333;
+  border: none;
+  padding: 12px 35px;
+  font-size: 16px;
+  display: block;
+  margin: 30px auto 0;
+}
+#Sec2 {
+  display: flex;
+  text-align: center;
+}
+#Sec2 div {
+  width: calc(100% / 3);
+  padding: 50px 30px;
+}
+#Sec2 div i {
+  font-size: 45px;
+  color: #222222;
+  margin-bottom: 20px;
+}
+#Sec2 div h4 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #222222;
+}
+#Sec2 div p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #444444;
+}
+#Sec2 .oSec2 {
+  background-color: #4db887;
+}
+.foot {
+  color: #ffffff;
+  background-color: #2a2a2a;
+  padding: 25px 15px;
+  text-align: center;
+  font-size: 15px;
+}
+footer p {
+  margin: 0;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+/********About************/
+#heroAbout {
+  padding: 80px 0;
+}
+#heroAbout .container {
+  display: flex;
+  align-items: center; /*توسيط عمودي*/
+  width: 80%;
+}
+/* #heroAbout .ldev { */
+/* padding-top: 70px; */
+/* } */
+#heroAbout .ldev h2 {
+  font-size: 50px;
+  color: #333333;
+  margin-bottom: 20px;
+  text-align: left;
+}
+#heroAbout .ldev p {
+  color: #555555;
+  line-height: 1.4;
+  font-size: 22px;
+}
+#heroAbout .rdev img {
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  object-fit: cover; /*حتى لا تتشوه الصورة */
+  margin: 55px auto 0;
+  display: block;
+}
+#heroAbout div {
+  width: calc(100% / 2);
+}
+#says {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../image/aboutfar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0;
+  text-align: center;
+}
+#says h3 {
+  color: #ffffff;
+  font-size: 40px;
+  margin-bottom: 40px;
+  padding-top: 30px;
+  text-shadow: 1px 1px 5px #ffffff80;
+}
+#says .sau {
+  width: 70%;
+  background-color: #dfb784;
+  margin: 30px auto 25px;
+  align-items: center;
+  padding: 20px 30px;
+}
+#says img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 25px;
+}
+#says .sau {
+  display: flex;
+}
+.sau p {
+  color: #111111;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.6;
+  text-align: left;
+}
+/********contact************/
+#contactUs h2 {
+  color: #000;
+  font-size: 45px;
+  text-align: left;
+  line-height: 15px;
+  padding-top: 50px;
+}
+#contactUs p {
+  font-size: 23px;
+}
+#contactUs label {
+  display: block;
+  padding-top: 20px;
+  font-size: 20px;
+}
+#contactUs input {
+  width: 100%;
+  height: 35px;
+  display: block;
+  margin-top: 7.5px;
+  outline: none;
+}
+#contactUs textarea {
+  display: block;
+  width: 100%;
+  margin-top: 7.5px;
+  margin-bottom: 15px;
+  outline: none;
+}
+#contactUs button {
+  margin: 30px 0 30px;
+  border: none;
+  background-color: #333333;
+  padding: 15px 35px;
+  display: block;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+}
+#contactType {
+  background-color: #333333;
+  padding: 60px 0;
+  color: #ffffff;
+}
+#contactType .container {
+  width: calc(100% / 3);
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 80%;
+}
+#contactType .container div {
+  padding: 10px;
+}
+#contactType i {
+  font-size: 45px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+#contactType .container h4 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+#contactType .container p {
+  font-size: 15px;
+  color: #cccccc;
+  margin: 0;
+}
